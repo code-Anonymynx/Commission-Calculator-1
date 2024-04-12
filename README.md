@@ -38,6 +38,6 @@ Now I have an array with the number of sales made each day - my next steps are t
 
 **LATER EDITS**:
 
-  -> I will also add the new parameters of commission we have for work now
-  -> I will add a minimum 1 sale requirement parameter for the monthly shift complete bonus
-  -> I will account for tax
+  - I will also add the new parameters of commission we have for work now
+  - I will add a minimum 1 sale requirement parameter for the monthly shift complete bonus
+  - I will account for tax
