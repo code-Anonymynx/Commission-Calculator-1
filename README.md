@@ -28,6 +28,8 @@ It relies on manual editing to compile the daily & weekly results. A lazy soluti
 I may play around with this later to make it more automated, and/or to give it a nicer UI. 
 This _might_ be more fun in Julia just because of the easy access to emojis. (I _really_ like this function.)
 
+
+
 **UPDATE**:
 
 I have decided to rebuild this chunk of code, as it's been a few weeks of learning since my last write. This time I will require input, and store user data to make the code easier to work with. 
