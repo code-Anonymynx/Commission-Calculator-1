@@ -32,11 +32,11 @@ This _might_ be more fun in Julia just because of the easy access to emojis. (I 
 
 **UPDATE**:
 
-I have decided to rebuild this chunk of code, as it's been a few weeks of learning since my last write. This time I will require input, and store user data to make the code easier to work with. 
+I have decided to rebuild this chunk of code, as it's been a few weeks of learning since my last write. This time the code require input, and will store user data to make the code easier to work with. It currently creates 2x equal length lists which stores the number of sales made and lead generations made each day.
 
 **NEXT STEPS**:
 
-Now I have an array with the number of sales made each day - my next steps are to repeat this method to create an equal length array with the number of lead generations per day.
+Will be to calculate the sales & lead generation bonus' based on the user data inputted.
 
 **LATER EDITS**:
 
