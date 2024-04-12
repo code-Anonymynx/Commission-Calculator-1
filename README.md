@@ -28,3 +28,16 @@ It relies on manual editing to compile the daily & weekly results. A lazy soluti
 I may play around with this later to make it more automated, and/or to give it a nicer UI. 
 This _might_ be more fun in Julia just because of the easy access to emojis. (I _really_ like this function.)
 
+**UPDATE**:
+
+I have decided to rebuild this chunk of code, as it's been a few weeks of learning since my last write. This time I will require input, and store user data to make the code easier to work with. 
+
+**NEXT STEPS**:
+
+Now I have an array with the number of sales made each day - my next steps are to repeat this method to create an equal length array with the number of lead generations per day.
+
+**LATER EDITS**:
+
+  -> I will also add the new parameters of commission we have for work now
+  -> I will add a minimum 1 sale requirement parameter for the monthly shift complete bonus
+  -> I will account for tax
