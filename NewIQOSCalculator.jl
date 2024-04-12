@@ -1,5 +1,5 @@
 # The first section of code will allow me to define the number of days worked
-# And store how many sales were made each day 
+# And store how many sales & lead generations were made each day 
 
 # Define a function to initialize the list with zeros
 function initialize_list(n)
@@ -10,11 +10,14 @@ end
 println("How many days have you worked this week?")
 n = parse(Int, readline())
 
+# Initialise two lists - one for sales per week and one for lead generations
 SalesPerWeek = initialize_list(n)
+LGPerWeek = initialize_list(n)
 println("List of shifts worked each day this week:", NoShiftsWeek)
 
 # Identify which day of the week it is
-x = 1
+x = 1       # for SalesPerWeek
+y = 1       # for LGPerWeek
 
 # Ask the user how many sales they made each day, populate NoShiftsWeek List
 function populate_list!(SalesPerWeek)
@@ -25,9 +28,19 @@ function populate_list!(SalesPerWeek)
     end
 end
 
+# Create & display a list with the #sales made per day
 populate_list!(SalesPerWeek)
-println("Updated list of shifts worked each day this week:", SalesPerWeek)
+println("Updated list of sales made each day this week:", SalesPerWeek)
 
-# Now I have an array with the number of sales made each day
-# The next step is to repeat this method to create an equal length array 
-# with the number of lead generations per day 
+# Ask the user how many lead generations they made each day, populate NoShiftsWeek List
+function populate_list!(LGPerWeek)
+    for i in 1:length(LGPerWeek)
+        println("How many lead generations have you made on day ", y, "?")
+        LGPerWeek[i] = parse(Int, readline())
+        global y += 1  # Increment x for the next day
+    end
+end
+
+# Create & display an equal length list with the #lead generations made per day
+populate_list!(LGPerWeek)
+println("Updated list of lead generations made each day this week:", LGPerWeek)
