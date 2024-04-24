@@ -62,3 +62,7 @@ Will be to calculate the sales & lead generation bonus' based on the user data i
 **LATER EDITS**:
 
   - MAKE IT PRETTY! 
+
+**NOTES** 
+
+Please note the most up-to-date file is titled: **calculator.py**
