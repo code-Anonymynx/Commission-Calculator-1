@@ -43,3 +43,22 @@ Will be to calculate the sales & lead generation bonus' based on the user data i
   - I will also add the new parameters of commission we have for work now
   - I will add a minimum 1 sale requirement parameter for the monthly shift complete bonus
   - I will account for tax
+
+
+
+**UPDATE the SECOND**:
+
+ - I have moved back over to Python. Despite really enjoying Julia, it seems less used.
+ - Work now NO LONGER offer Lead Generation bonus' - sad - so I removed this feature.
+ - It turns out we also get a £50 bonus for >10 sales a week. So I added this in.
+ - It's now much more functional in that you can calculate a whole month, not just one week.
+ - It also adds the weekly shift complete bonus'.
+ - I added a bit to account for tax.
+
+**NEXT STEPS**:
+
+- I will add a minimum 1 sale requirement parameter for the monthly shift complete bonus
+
+**LATER EDITS**:
+
+  - MAKE IT PRETTY! 
