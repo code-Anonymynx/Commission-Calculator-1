@@ -92,7 +92,7 @@ total_earnings_month = sum(total_earnings_per_week)
 print("\nTotal earnings for the month:", total_earnings_month)
 
 # Ask the user for input: number of happy sales made over the month
-num_happy_sales = int(input("How many happy sales were made over the month? "))
+num_happy_sales = int(input("How many happy hour sales were made over the month? "))
 
 # Calculate the additional earnings for the month based on happy sales
 additional_earnings_happy_sales = 10 * num_happy_sales
